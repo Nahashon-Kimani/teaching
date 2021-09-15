@@ -6,7 +6,7 @@
 
 <div class="container">
     <div class="col-sm-9 mx-auto">
-        <form action="{{ route('update-course') }}" method="post">
+        <form action="{{ route('update-course', $course->id) }}" method="post">
             @csrf
             @method('PUT')
             <!-- Course Name -->

@@ -94,6 +94,8 @@ class CourseController extends Controller
         $course->slug = Str::slug('name', '-');
         $course->course_level = $request->course_level;
         $course->duration = $request->duration;
+        $course->status = 1;
+        $course->description = $request->description;
         $course->save();
 
 
@@ -131,6 +133,8 @@ class CourseController extends Controller
         $course->slug = Str::slug('name', '-');
         $course->course_level = $request->course_level;
         $course->duration = $request->duration;
+        $course->status = 1;
+        $course->description = $request->description;
         $course->save();
 
 

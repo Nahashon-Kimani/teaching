@@ -30,9 +30,23 @@
                         <tr>
                             <td>{{ $course->id }}</td>
                             <td>{{ $course->name }}</td>
-                            <td>{{ $course->duration }}</td>
-                            <td>{{ $course->status }}</td>
-                            <td>{{ $course->course_level }}</td>
+                            <td>{{ $course->duration }} Months</td>
+                            <td>
+                                @if ($course->status == 1)
+                                    Active
+                                @else
+                                    Inactive
+                                @endif
+                            </td>
+                            <td>
+                                @if ($course->course_level== 1)
+                                    Certificate
+                                @elseif ($course->course_level == 2)
+                                    Diploma
+                                @else
+                                    Masters
+                                @endif
+                            </td>
                             <td>
                                 <a href="{{ route('edit-course', $course->id) }}" class="btn btn-success px-5">
                                     Edit
@@ -48,8 +62,5 @@
         </div>
     </div>
 </div>
-
-
-
 <!-- Ends the section content -->
 @endsection
