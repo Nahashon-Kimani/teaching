@@ -19,7 +19,7 @@ class LessonController extends Controller
     {
         // fetching all lessons 
         // Use paginate method instead of get to paginate to 10 per result set
-        $lessons = Lesson::latest()->simplePaginate(10);
+        $lessons = Lesson::latest()->get();
  
         /**
          * Getting lessons of unit id 1
@@ -28,7 +28,7 @@ class LessonController extends Controller
          * = logical operator, others include >, <, like, <>, >=, <= e.t.c.
          * 1 value to compare with
          */
-        $lessons = Lesson::where('unit_id', 1)->latest()->get();
+        //$lessons = Lesson::where('unit_id', 1)->latest()->get();
 
         /**
          * Using Or where Clause
@@ -153,7 +153,7 @@ class LessonController extends Controller
         $units = Unit::all();
 
         // Returning edit view
-        return view('unit.edit', compact('units, lesson'));
+        return view('lesson.edit', compact('units', 'lesson'));
 
     }
 

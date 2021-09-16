@@ -65,10 +65,10 @@ Route::group(['middleware'=>['web','auth']],function(){
     Route::post('store-unit', [UnitController::class, 'store'])->name('store-unit');
 
     // Route to show unit edit page 
-    Route::get('edit-unit', [UnitController::class, 'edit'])->name('edit-page');
+    Route::get('edit-unit/{id}', [UnitController::class, 'edit'])->name('edit-unit');
 
     // Route to update a unit 
-    Route::put('update-unit', [UnitController::class, 'update'])->name('update-unit');
+    Route::put('update-unit/{id}', [UnitController::class, 'update'])->name('update-unit');
 
     // Route to delete a unit
     Route::delete('delete-unit/{id}', [UnitController::class, 'destroy'])->name('delete-unit');

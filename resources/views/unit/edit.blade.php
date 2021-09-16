@@ -32,6 +32,7 @@
                         <option value="{{ $course->id }}">{{ $course->name }}</option>
                     @endforeach
                 </select>
+                @error('course_id') <p class="text-danger">{{ $message }}</p>@enderror
             </div>
 
             <!-- Unit Deescription -->

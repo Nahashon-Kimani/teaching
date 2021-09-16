@@ -34,6 +34,7 @@
                         <option value="{{ $unit->id }}">{{ $unit->name }}</option>
                     @endforeach
                 </select>
+                @error('associated_unit') <p class="text-danger">{{ $message }}</p>@enderror
             </div>
 
             <!-- Lesson Notes -->

@@ -53,7 +53,11 @@
                                 </a>
                             </td>
                             <td>
-                               Delete
+                               <form action="{{ route('delete-course', $course->id) }}" method="post">
+                                @csrf
+                                @method('DELETE')
+                                    <button type="submit" class="btn btn-danger px-5">Delete</button>
+                               </form>
                             </td>
                         </tr>
                     @endforeach

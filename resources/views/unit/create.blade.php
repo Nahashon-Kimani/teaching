@@ -6,7 +6,7 @@
 
 <div class="container">
     <div class="col-sm-9 mx-auto">
-        <form action="" method="post">
+        <form action="{{ route('store-unit') }}" method="post">
             @csrf
             <!-- Unit Name -->
             <div class="form-group required">

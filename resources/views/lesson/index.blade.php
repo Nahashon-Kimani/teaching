@@ -8,7 +8,7 @@
     <div class="row">
         <div class="col-sm-10 mx-auto">
             {{-- Add new unit button  --}}
-            <a href="{{ route('lesson.index') }}" class="btn btn-primary float-right">
+            <a href="{{ route('lesson.create') }}" class="btn btn-primary float-right">
                 Add new Unit
             </a>
 
@@ -31,7 +31,7 @@
                     <th colspan="3">Action</th>
                 </tfoot>
                 <tbody>
-                  @forelse ($lessons as $key=>$lessons)
+                  @forelse ($lessons as $key=>$lesson)
                     <tr>
                         <td>{{ $key + 1 }}</td>
                         <td>{{ $lesson->name }}</td>
@@ -69,7 +69,7 @@
                 </tbody>
             </table>
             <div class="d-flex justify-content-center">
-                {!! $lessons->links() !!}
+                {{-- {!! $lessons->links() !!} --}}
             </div>
         </div>
     </div>

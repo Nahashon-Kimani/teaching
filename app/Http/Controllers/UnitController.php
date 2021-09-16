@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Course;
 use App\Models\Unit;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 
 class UnitController extends Controller
 {
@@ -39,7 +40,7 @@ class UnitController extends Controller
         $this->validate($request, [
             'name'=>'required|unique:units',
             'course_id'=>'required',
-            'unit_duration'=>'required',
+            'duration'=>'required',
         ]);
 
         // Creating a new instance of a unit
@@ -51,7 +52,7 @@ class UnitController extends Controller
         $unit->unit_outline = $request->unit_outline;
         $unit->save();
 
-        return redirect()->route('course');
+        return redirect()->route('unit');
     }
 
     // Function to show the edit form 
@@ -72,9 +73,9 @@ class UnitController extends Controller
     {
         // Validating input
         $this->validate($request, [
-            'name'=>'required|unique:units',
+            'name'=>'required',
             'course_id'=>'required',
-            'unit_duration'=>'required',
+            'duration'=>'required',
         ]);
 
         // Finding unit to update
