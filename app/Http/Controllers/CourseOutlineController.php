@@ -18,8 +18,9 @@ class CourseOutlineController extends Controller
     {
         //fetching only approved course outlines
         $courseOutlines = CourseOutline::where('status', 1)->latest()->get();
+        $courses = Course::all();
         
-        return view('course-outline.index', compact('courseOutlines'));
+        return view('course-outline.index', compact('courseOutlines', 'courses'));
     }
 
     /**
@@ -83,7 +84,9 @@ class CourseOutlineController extends Controller
      */
     public function edit($id)
     {
-        //
+        $courseOutline = CourseOutline::findOrFail($id);
+        $coursess = Course::all();
+        return view('course-outline.edit', compact('courseOutline', 'coursess'));
     }
 
     /**

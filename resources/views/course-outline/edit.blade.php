@@ -13,8 +13,8 @@
             <div class="form-group required">
                 <label for="name" class="control-label">Associated Course</label>
                 <select name="course_id" class="form-control">
-                    <option disabled selected>-- Select Associated Course  --</option>
-                    @foreach ($courses as $course)
+                    <option selected value="{{ $courseOutline->course_id }}">{{ $courseOutline->courses->name }}</option>
+                    @foreach ($coursess as $course)
                         <option value="{{ $course->id }}">{{ $course->name }}</option>
                     @endforeach
                 </select>
@@ -25,7 +25,10 @@
             <div class="form-group required">
                 <label for="name" class="control-label">Course Outline</label>
                 <textarea name="description" id="descriptipon" rows="5" class="form-control" 
-                    placeholder="Course Description"></textarea>
+                    placeholder="Course Description">
+                    {{ $courseOutline->description }}
+                
+                </textarea>
             </div>
 
             <a href="{{ route('course-outline.index') }}" class="btn btn-danger px-5">Cancel</a>

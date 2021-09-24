@@ -8,7 +8,7 @@
     <div class="row">
         <div class="col-sm-10 mx-auto">
             Number of Courses: {{ count($courses) }}
-            <table class="table">
+            <table class="table"> 
                 <thead>
                     <th>Id</th>
                     <th>Associated Course</th>
