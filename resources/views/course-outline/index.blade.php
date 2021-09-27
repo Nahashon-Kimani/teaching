@@ -1,5 +1,5 @@
 <!-- This is the main file to be extended -->
-@extends('layouts.app')
+@extends('layouts.master')
 
 <!-- Section where the code will be slotted: in the section content -->
 @section('content')
