@@ -53,6 +53,11 @@ Route::group(['middleware'=>['web','auth']],function(){
     // Route to delete a course
     Route::delete('delete-course/{id}', [CourseController::class, 'delete'])->name('delete-course');
 
+    // Route to show course details
+    Route::get('show-course-details/{id}', [CourseController::class, 'show'])->name('show-course-details');
+
+
+    
 
     // Units Routes starts 
     // Route to display unit index page 

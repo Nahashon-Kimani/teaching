@@ -53,6 +53,11 @@
                                 </a>
                             </td>
                             <td>
+                                <a href="{{ route('show-course-details', $course->id) }}" class="btn btn-info px-3">
+                                    Show
+                                </a>
+                            </td>
+                            <td>
                                <form action="{{ route('delete-course', $course->id) }}" method="post">
                                 @csrf
                                 @method('DELETE')

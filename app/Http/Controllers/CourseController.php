@@ -142,6 +142,15 @@ class CourseController extends Controller
         return redirect()->route('course');
     }
 
+
+    // Function to show course details
+    // This function requires one parameter to fetch the exact record from the db
+    public function show($id)
+    {
+        $course = Course::findOrFail($id);
+        return view('course.show', compact('course'));
+    }
+
     public function delete($id)
     {
         // Finding the course to delete
