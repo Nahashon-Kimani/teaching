@@ -5,7 +5,7 @@
                         <div class="row">
                             <div class="col-lg-3">
                                 <div class="logo-area">
-                                    <a href="index.html"><img src="assets/images/logo-dark.png" alt="logo"></a>
+                                    <a href="index.html"><img src="{{ asset('frontend/assets/images/logo-dark.png') }}" alt="logo"></a>
                                 </div>
                             </div>
                             <div class="col-lg-9 text-right">

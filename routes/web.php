@@ -5,6 +5,7 @@ use App\Http\Controllers\CourseController;
 use App\Http\Controllers\CourseOutlineController;
 use App\Http\Controllers\LessonController;
 use App\Http\Controllers\UnitController;
+use App\Http\Controllers\WebsiteController;
 use Illuminate\Support\Facades\Auth;
 
 /*
@@ -18,9 +19,7 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [WebsiteController::class, 'index'])->name('home');
 
 Auth::routes();
 

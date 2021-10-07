@@ -11,8 +11,8 @@
             <div id="rs-slider" class="rs-slider slider1">
                 <div class="bend niceties">
                     <div id="nivoSlider" class="slides">
-                        <img src="assets/images/slider/h1-sl1.jpg" alt="" title="#slide-1" />
-                        <img src="assets/images/slider/h1-sl2.jpg" alt="" title="#slide-2" />
+                        <img src="{{ asset('frontend/assets/images/slider/h1-sl1.jpg') }}" alt="" title="#slide-1" />
+                        <img src="{{ asset('frontend/assets/images/slider/h1-sl2.jpg') }}" alt="" title="#slide-2" />
                     </div>
                     <!-- Slide 1 -->
                     <div id="slide-1" class="slider-direction">
@@ -61,7 +61,7 @@
                         <div class="col-lg-3 col-sm-6 mb-16">
                             <div class="service-wrap">
                                 <div class="icon-part">
-                                    <img src="assets/images/services/icons/1.png" alt="">
+                                    <img src="{{ asset('frontend/assets/images/services/icons/1.png') }}" alt="">
                                 </div>
                                 <div class="content-part">
                                     <h5 class="title"><a href="#">Solution Focused</a></h5>
@@ -72,7 +72,7 @@
                         <div class="col-lg-3 col-sm-6 mb-16">
                             <div class="service-wrap">
                                 <div class="icon-part">
-                                    <img src="assets/images/services/icons/2.png" alt="">
+                                    <img src="{{ asset('frontend/assets/images/services/icons/2.png') }}" alt="">
                                 </div>
                                 <div class="content-part">
                                     <h5 class="title"><a href="#">Customer Oriented</a></h5>
@@ -83,7 +83,7 @@
                         <div class="col-lg-3 col-sm-6 mb-16">
                             <div class="service-wrap">
                                 <div class="icon-part">
-                                    <img src="assets/images/services/icons/3.png" alt="">
+                                    <img src="{{ asset('frontend/assets/images/services/icons/3.png') }}" alt="">
                                 </div>
                                 <div class="content-part">
                                     <h5 class="title"><a href="#">99.99% Success</a></h5>
@@ -94,7 +94,7 @@
                         <div class="col-lg-3 col-sm-6 mb-16">
                             <div class="service-wrap">
                                 <div class="icon-part">
-                                    <img src="assets/images/services/icons/4.png" alt="">
+                                    <img src="{{ asset('frontend/assets/images/services/icons/4.png') }}" alt="">
                                 </div>
                                 <div class="content-part">
                                     <h5 class="title"><a href="#">Decision Maker</a></h5>
@@ -112,7 +112,7 @@
                 <div class="container">
                     <div class="row y-bottom">
                         <div class="col-lg-6 padding-0">
-                            <img src="assets/images/about/about1.png" alt="">
+                            <img src="{{ asset('frontend/assets/images/about/about1.png') }}" alt="">
                         </div>
                         <div class="col-lg-6 pl-66 pt-75 pb-75 md-pt-42 md-pb-72">
                             <div class="sec-title mb-47 md-mb-42">
@@ -121,7 +121,7 @@
                             </div>
                             <div class="services-part mb-30">
                                 <div class="services-icon">
-                                    <img src="assets/images/about/icons/1.png" alt="image">
+                                    <img src="{{ asset('frontend/assets/images/about/icons/1.png') }}" alt="image">
                                 </div>
                                 <div class="services-text">
                                     <h4 class="title">The ability to identify market-entry</h4>
@@ -130,7 +130,7 @@
                             </div>
                             <div class="services-part">
                                 <div class="services-icon">
-                                    <img src="assets/images/about/icons/2.png" alt="image">
+                                    <img src="{{ asset('frontend/assets/images/about/icons/2.png') }}" alt="image">
                                 </div>
                                 <div class="services-text">
                                     <h4 class="title">Ensure to increase of expected sales</h4>
@@ -154,7 +154,7 @@
                         <div class="col-lg-3 col-sm-6 mb-16">
                             <div class="service-wrap">
                                 <div class="icon-part">
-                                    <img src="assets/images/services/icons/modify/1.png" alt="">
+                                    <img src="{{ asset('frontend/assets/images/services/icons/modify/1.png') }}" alt="">
                                 </div>
                                 <div class="content-part">
                                     <h5 class="title"><a href="#">Business Analysis</a></h5>
@@ -165,7 +165,7 @@
                         <div class="col-lg-3 col-sm-6 mb-16">
                             <div class="service-wrap">
                                 <div class="icon-part">
-                                    <img src="assets/images/services/icons/modify/2.png" alt="">
+                                    <img src="{{ asset('frontend/assets/images/services/icons/modify/2.png') }}" alt="">
                                 </div>
                                 <div class="content-part">
                                     <h5 class="title"><a href="#">Reports Analysis</a></h5>
@@ -176,7 +176,7 @@
                         <div class="col-lg-3 col-sm-6 mb-16">
                             <div class="service-wrap">
                                 <div class="icon-part">
-                                    <img src="assets/images/services/icons/modify/3.png" alt="">
+                                    <img src="{{ asset('frontend/assets/images/services/icons/modify/3.png') }}" alt="">
                                 </div>
                                 <div class="content-part">
                                     <h5 class="title"><a href="#">Profit Planning</a></h5>
@@ -187,7 +187,7 @@
                         <div class="col-lg-3 col-sm-6 mb-16">
                             <div class="service-wrap">
                                 <div class="icon-part">
-                                    <img src="assets/images/services/icons/modify/4.png" alt="">
+                                    <img src="{{ asset('frontend/assets/images/services/icons/modify/4.png') }}" alt="">
                                 </div>
                                 <div class="content-part">
                                     <h5 class="title"><a href="#">Project Reporting</a></h5>
@@ -198,7 +198,7 @@
                         <div class="col-lg-3 col-sm-6 mb-16">
                             <div class="service-wrap">
                                 <div class="icon-part">
-                                    <img src="assets/images/services/icons/modify/5.png" alt="">
+                                    <img src="{{ asset('frontend/assets/images/services/icons/modify/5.png') }}" alt="">
                                 </div>
                                 <div class="content-part">
                                     <h5 class="title"><a href="#">Estate Planning</a></h5>
@@ -209,7 +209,7 @@
                         <div class="col-lg-3 col-sm-6 mb-16">
                             <div class="service-wrap">
                                 <div class="icon-part">
-                                    <img src="assets/images/services/icons/modify/6.png" alt="">
+                                    <img src="{{ asset('frontend/assets/images/services/icons/modify/6.png') }}" alt="">
                                 </div>
                                 <div class="content-part">
                                     <h5 class="title"><a href="#">Security Enhanced</a></h5>
@@ -220,7 +220,7 @@
                         <div class="col-lg-3 col-sm-6 mb-16">
                             <div class="service-wrap">
                                 <div class="icon-part">
-                                    <img src="assets/images/services/icons/modify/7.png" alt="">
+                                    <img src="{{ asset('frontend/assets/images/services/icons/modify/7.png') }}" alt="">
                                 </div>
                                 <div class="content-part">
                                     <h5 class="title"><a href="#">Cloud Computing</a></h5>
@@ -231,7 +231,7 @@
                         <div class="col-lg-3 col-sm-6 mb-16">
                             <div class="service-wrap">
                                 <div class="icon-part size-mod">
-                                    <img src="assets/images/services/icons/modify/8.png" alt="">
+                                    <img src="{{ asset('frontend/assets/images/services/icons/modify/8.png') }}" alt="">
                                 </div>
                                 <div class="content-part">
                                     <h5 class="title"><a href="#">Cryptocurrency</a></h5>
@@ -249,7 +249,7 @@
                 <div class="rs-carousel owl-carousel dot-style1" data-loop="true" data-items="4" data-margin="22" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="true" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="true" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="3" data-lg-device="4" data-md-device-nav="false" data-md-device-dots="true">
                     <div class="portfolio-item">
                         <div class="img-part">
-                            <img src="assets/images/casestudies/1.jpg" alt="">
+                            <img src="{{ asset('frontend/assets/images/casestudies/1.jpg') }}" alt="">
                         </div>
                         <div class="content-part">
                             <a class="categories" href="#">Marketing</a>
@@ -258,7 +258,7 @@
                     </div>
                     <div class="portfolio-item">
                         <div class="img-part">
-                            <img src="assets/images/casestudies/2.jpg" alt="">
+                            <img src="{{ asset('frontend/assets/images/casestudies/2.jpg') }}" alt="">
                         </div>
                         <div class="content-part">
                             <a class="categories" href="#">Business</a>
@@ -267,7 +267,7 @@
                     </div>
                     <div class="portfolio-item">
                         <div class="img-part">
-                            <img src="assets/images/casestudies/3.jpg" alt="">
+                            <img src="{{ asset('frontend/assets/images/casestudies/3.jpg') }}" alt="">
                         </div>
                         <div class="content-part">
                             <a class="categories" href="#">Consulting</a>
@@ -276,7 +276,7 @@
                     </div>
                     <div class="portfolio-item">
                         <div class="img-part">
-                            <img src="assets/images/casestudies/4.jpg" alt="">
+                            <img src="{{ asset('frontend/assets/images/casestudies/4.jpg') }}" alt="">
                         </div>
                         <div class="content-part">
                             <a class="categories" href="#">Strategy</a>
@@ -285,7 +285,7 @@
                     </div>
                     <div class="portfolio-item">
                         <div class="img-part">
-                            <img src="assets/images/casestudies/5.jpg" alt="">
+                            <img src="{{ asset('frontend/assets/images/casestudies/5.jpg') }}" alt="">
                         </div>
                         <div class="content-part">
                             <a class="categories" href="#">Finance</a>
@@ -294,7 +294,7 @@
                     </div>
                     <div class="portfolio-item">
                         <div class="img-part">
-                            <img src="assets/images/casestudies/6.jpg" alt="">
+                            <img src="{{ asset('frontend/assets/images/casestudies/6.jpg') }}" alt="">
                         </div>
                         <div class="content-part">
                             <a class="categories" href="#">Business</a>
@@ -303,7 +303,7 @@
                     </div>
                     <div class="portfolio-item">
                         <div class="img-part">
-                            <img src="assets/images/casestudies/7.jpg" alt="">
+                            <img src="{{ asset('frontend/assets/images/casestudies/7.jpg') }}" alt="">
                         </div>
                         <div class="content-part">
                             <a class="categories" href="#">Consulting</a>
@@ -312,7 +312,7 @@
                     </div>
                     <div class="portfolio-item">
                         <div class="img-part">
-                            <img src="assets/images/casestudies/8.jpg" alt="">
+                            <img src="{{ asset('frontend/assets/images/casestudies/8.jpg') }}" alt="">
                         </div>
                         <div class="content-part">
                             <a class="categories" href="#">Marketing</a>
@@ -385,7 +385,7 @@
                                         </div>
                                         <div class="posted-by text-center">
                                             <div class="avatar">
-                                                <img src="assets/images/testimonial/avatar/1.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/images/testimonial/avatar/1.jpg') }}" alt="">
                                             </div>
                                             <h5 class="name">Lisa Fedro</h5>
                                             <span class="designation">CEO, Keen IT Solution</span>
@@ -400,7 +400,7 @@
                                         </div>
                                         <div class="posted-by text-center">
                                             <div class="avatar">
-                                                <img src="assets/images/testimonial/avatar/2.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/images/testimonial/avatar/2.jpg') }}" alt="">
                                             </div>
                                             <h5 class="name">Mike Hotten</h5>
                                             <span class="designation">CEO, Brick Consulting</span>
@@ -415,7 +415,7 @@
                                         </div>
                                         <div class="posted-by text-center">
                                             <div class="avatar">
-                                                <img src="assets/images/testimonial/avatar/3.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/images/testimonial/avatar/3.jpg') }}" alt="">
                                             </div>
                                             <h5 class="name">Israt Jahan</h5>
                                             <span class="designation">CEO, Brick Consulting</span>
@@ -430,7 +430,7 @@
                                         </div>
                                         <div class="posted-by text-center">
                                             <div class="avatar">
-                                                <img src="assets/images/testimonial/avatar/4.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/images/testimonial/avatar/4.jpg') }}" alt="">
                                             </div>
                                             <h5 class="name">Jorina Bibi</h5>
                                             <span class="designation">CEO, Brick Consulting</span>
@@ -445,7 +445,7 @@
                                         </div>
                                         <div class="posted-by text-center">
                                             <div class="avatar">
-                                                <img src="assets/images/testimonial/avatar/5.jpg" alt="">
+                                                <img src="{{ asset('frontend/assets/images/testimonial/avatar/5.jpg') }}" alt="">
                                             </div>
                                             <h5 class="name">Rafian Sagar</h5>
                                             <span class="designation">CEO, Brick Consulting</span>
@@ -464,19 +464,19 @@
                 <div class="container">
                     <div class="rs-carousel owl-carousel" data-loop="true" data-items="4" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="2" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="3" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="4" data-md-device-nav="false" data-md-device-dots="false">
                         <div class="partner-item">
-                            <a href="#"><img src="assets/images/partner/1.png" alt=""></a>
+                            <a href="#"><img src="{{ asset('frontend/assets/images/partner/1.png') }}" alt=""></a>
                         </div>
                         <div class="partner-item">
-                            <a href="#"><img src="assets/images/partner/2.png" alt=""></a>
+                            <a href="#"><img src="{{ asset('frontend/assets/images/partner/2.png') }}" alt=""></a>
                         </div>
                         <div class="partner-item">
-                            <a href="#"><img src="assets/images/partner/3.png" alt=""></a>
+                            <a href="#"><img src="{{ asset('frontend/assets/images/partner/3.png') }}" alt=""></a>
                         </div>
                         <div class="partner-item">
-                            <a href="#"><img src="assets/images/partner/4.png" alt=""></a>
+                            <a href="#"><img src="{{ asset('frontend/assets/images/partner/4.png') }}" alt=""></a>
                         </div>
                         <div class="partner-item">
-                            <a href="#"><img src="assets/images/partner/5.png" alt=""></a>
+                            <a href="#"><img src="{{ asset('frontend/assets/images/partner/5.png') }}" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -494,7 +494,7 @@
                     <div class="rs-carousel owl-carousel dot-style1" data-loop="true" data-items="4" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="true" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="3" data-lg-device="4" data-md-device-nav="false" data-md-device-dots="true">
                         <div class="team-wrap">
                             <div class="team-image">
-                                <img src="assets/images/team/1.jpg" alt="Team Image">
+                                <img src="{{ asset('frontend/assets/images/team/1.jpg') }}" alt="Team Image">
                             </div>
                             <div class="text-bottom">
                                 <h4 class="person-name"><a href="#">Mike Jason</a></h4>
@@ -511,7 +511,7 @@
                         </div>
                         <div class="team-wrap">
                             <div class="team-image">
-                                <img src="assets/images/team/2.jpg" alt="Team Image">
+                                <img src="{{ asset('frontend/assets/images/team/2.jpg') }}" alt="Team Image">
                             </div>
                             <div class="text-bottom">
                                 <h4 class="person-name"><a href="#">Francis Ibikunle</a></h4>
@@ -528,7 +528,7 @@
                         </div>
                         <div class="team-wrap">
                             <div class="team-image">
-                                <img src="assets/images/team/3.jpg" alt="Team Image">
+                                <img src="{{ asset('frontend/assets/images/team/3.jpg') }}" alt="Team Image">
                             </div>
                             <div class="text-bottom">
                                 <h4 class="person-name"><a href="#">Ara Gates</a></h4>
@@ -545,7 +545,7 @@
                         </div>
                         <div class="team-wrap">
                             <div class="team-image">
-                                <img src="assets/images/team/4.jpg" alt="Team Image">
+                                <img src="{{ asset('frontend/assets/images/team/4.jpg') }}" alt="Team Image">
                             </div>
                             <div class="text-bottom">
                                 <h4 class="person-name"><a href="#">Claire Divas</a></h4>
@@ -562,7 +562,7 @@
                         </div>
                         <div class="team-wrap">
                             <div class="team-image">
-                                <img src="assets/images/team/5.jpg" alt="Team Image">
+                                <img src="{{ asset('frontend/assets/images/team/5.jpg') }}" alt="Team Image">
                             </div>
                             <div class="text-bottom">
                                 <h4 class="person-name"><a href="#">Isabella Croline</a></h4>
@@ -579,7 +579,7 @@
                         </div>
                         <div class="team-wrap">
                             <div class="team-image">
-                                <img src="assets/images/team/6.jpg" alt="Team Image">
+                                <img src="{{ asset('frontend/assets/images/team/6.jpg') }}" alt="Team Image">
                             </div>
                             <div class="text-bottom">
                                 <h4 class="person-name"><a href="#">John Masud</a></h4>
@@ -596,7 +596,7 @@
                         </div>
                         <div class="team-wrap">
                             <div class="team-image">
-                                <img src="assets/images/team/7.jpg" alt="Team Image">
+                                <img src="{{ asset('frontend/assets/images/team/7.jpg') }}" alt="Team Image">
                             </div>
                             <div class="text-bottom">
                                 <h4 class="person-name"><a href="#">Corey Anderson</a></h4>
@@ -613,7 +613,7 @@
                         </div>
                         <div class="team-wrap">
                             <div class="team-image">
-                                <img src="assets/images/team/8.jpg" alt="Team Image">
+                                <img src="{{ asset('frontend/assets/images/team/8.jpg') }}" alt="Team Image">
                             </div>
                             <div class="text-bottom">
                                 <h4 class="person-name"><a href="#">John Freight</a></h4>
@@ -630,7 +630,7 @@
                         </div>
                         <div class="team-wrap">
                             <div class="team-image">
-                                <img src="assets/images/team/9.jpg" alt="Team Image">
+                                <img src="{{ asset('frontend/assets/images/team/9.jpg') }}" alt="Team Image">
                             </div>
                             <div class="text-bottom">
                                 <h4 class="person-name"><a href="#">John Maliha</a></h4>
@@ -647,7 +647,7 @@
                         </div>
                         <div class="team-wrap">
                             <div class="team-image">
-                                <img src="assets/images/team/1.jpg" alt="Team Image">
+                                <img src="{{ asset('frontend/assets/images/team/1.jpg') }}" alt="Team Image">
                             </div>
                             <div class="text-bottom">
                                 <h4 class="person-name"><a href="#">Mike Jason</a></h4>
@@ -664,7 +664,7 @@
                         </div>
                         <div class="team-wrap">
                             <div class="team-image">
-                                <img src="assets/images/team/2.jpg" alt="Team Image">
+                                <img src="{{ asset('frontend/assets/images/team/2.jpg') }}" alt="Team Image">
                             </div>
                             <div class="text-bottom">
                                 <h4 class="person-name"><a href="#">Francis Ibikunle</a></h4>
@@ -681,7 +681,7 @@
                         </div>
                         <div class="team-wrap">
                             <div class="team-image">
-                                <img src="assets/images/team/3.jpg" alt="Team Image">
+                                <img src="{{ asset('frontend/assets/images/team/3.jpg') }}" alt="Team Image">
                             </div>
                             <div class="text-bottom">
                                 <h4 class="person-name"><a href="#">Ara Gates</a></h4>
@@ -698,7 +698,7 @@
                         </div>
                         <div class="team-wrap">
                             <div class="team-image">
-                                <img src="assets/images/team/4.jpg" alt="Team Image">
+                                <img src="{{ asset('frontend/assets/images/team/4.jpg') }}" alt="Team Image">
                             </div>
                             <div class="text-bottom">
                                 <h4 class="person-name"><a href="#">Claire Divas</a></h4>
@@ -715,7 +715,7 @@
                         </div>
                         <div class="team-wrap">
                             <div class="team-image">
-                                <img src="assets/images/team/5.jpg" alt="Team Image">
+                                <img src="{{ asset('frontend/assets/images/team/5.jpg') }}" alt="Team Image">
                             </div>
                             <div class="text-bottom">
                                 <h4 class="person-name"><a href="#">Isabella Croline</a></h4>
@@ -732,7 +732,7 @@
                         </div>
                         <div class="team-wrap">
                             <div class="team-image">
-                                <img src="assets/images/team/6.jpg" alt="Team Image">
+                                <img src="{{ asset('frontend/assets/images/team/6.jpg') }}" alt="Team Image">
                             </div>
                             <div class="text-bottom">
                                 <h4 class="person-name"><a href="#">John Masud</a></h4>
@@ -749,7 +749,7 @@
                         </div>
                         <div class="team-wrap">
                             <div class="team-image">
-                                <img src="assets/images/team/7.jpg" alt="Team Image">
+                                <img src="{{ asset('frontend/assets/images/team/7.jpg') }}" alt="Team Image">
                             </div>
                             <div class="text-bottom">
                                 <h4 class="person-name"><a href="#">Corey Anderson</a></h4>
@@ -766,7 +766,7 @@
                         </div>
                         <div class="team-wrap">
                             <div class="team-image">
-                                <img src="assets/images/team/8.jpg" alt="Team Image">
+                                <img src="{{ asset('frontend/assets/images/team/8.jpg') }}" alt="Team Image">
                             </div>
                             <div class="text-bottom">
                                 <h4 class="person-name"><a href="#">John Freight</a></h4>
@@ -901,7 +901,7 @@
                     <div class="rs-carousel owl-carousel dot-style1" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="true" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="true" data-ipad-device2="1" data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="3" data-md-device-nav="false" data-md-device-dots="true">
                         <div class="blog-wrap">
                             <div class="img-part">
-                                <img src="assets/images/blog/1.jpg" alt="">
+                                <img src="{{ asset('frontend/assets/images/blog/1.jpg') }}" alt="">
                                 <div class="fly-btn">
                                     <a href="#"><i class="flaticon-right-arrow"></i></a>
                                 </div>
@@ -911,7 +911,7 @@
                                 <h3 class="title"><a href="#">Covid-19 threatens the next generation of smartphones</a></h3>
                                 <div class="blog-meta">
                                     <div class="user-data">
-                                        <img src="assets/images/blog/avatar/1.png" alt="">
+                                        <img src="{{ asset('frontend/assets/images/blog/avatar/1.png') }}" alt="">
                                         <span>admin</span>
                                     </div>
                                     <div class="date">
@@ -922,7 +922,7 @@
                         </div>
                         <div class="blog-wrap">
                             <div class="img-part">
-                                <img src="assets/images/blog/2.jpg" alt="">
+                                <img src="{{ asset('frontend/assets/images/blog/2.jpg') }}" alt="">
                                 <div class="fly-btn">
                                     <a href="#"><i class="flaticon-right-arrow"></i></a>
                                 </div>
@@ -932,7 +932,7 @@
                                 <h3 class="title"><a href="#">Soundtrack filma Lady Exclusive Music</a></h3>
                                 <div class="blog-meta">
                                     <div class="user-data">
-                                        <img src="assets/images/blog/avatar/1.png" alt="">
+                                        <img src="{{ asset('frontend/assets/images/blog/avatar/1.png') }}" alt="">
                                         <span>admin</span>
                                     </div>
                                     <div class="date">
@@ -943,7 +943,7 @@
                         </div>
                         <div class="blog-wrap">
                             <div class="img-part">
-                                <img src="assets/images/blog/3.jpg" alt="">
+                                <img src="{{ asset('frontend/assets/images/blog/3.jpg') }}" alt="">
                                 <div class="fly-btn">
                                     <a href="#"><i class="flaticon-right-arrow"></i></a>
                                 </div>
@@ -953,7 +953,7 @@
                                 <h3 class="title"><a href="#">Winged moved stars, fruit creature seed night.</a></h3>
                                 <div class="blog-meta">
                                     <div class="user-data">
-                                        <img src="assets/images/blog/avatar/1.png" alt="">
+                                        <img src="{{ asset('frontend/assets/images/blog/avatar/1.png') }}" alt="">
                                         <span>admin</span>
                                     </div>
                                     <div class="date">
@@ -964,7 +964,7 @@
                         </div>
                         <div class="blog-wrap">
                             <div class="img-part">
-                                <img src="assets/images/blog/4.jpg" alt="">
+                                <img src="{{ asset('frontend/assets/images/blog/4.jpg') }}" alt="">
                                 <div class="fly-btn">
                                     <a href="#"><i class="flaticon-right-arrow"></i></a>
                                 </div>
@@ -974,7 +974,7 @@
                                 <h3 class="title"><a href="#">Given void great you’re good appear have i also fifth</a></h3>
                                 <div class="blog-meta">
                                     <div class="user-data">
-                                        <img src="assets/images/blog/avatar/1.png" alt="">
+                                        <img src="{{ asset('frontend/assets/images/blog/avatar/1.png') }}" alt="">
                                         <span>admin</span>
                                     </div>
                                     <div class="date">
@@ -985,7 +985,7 @@
                         </div>
                         <div class="blog-wrap">
                             <div class="img-part">
-                                <img src="assets/images/blog/5.jpg" alt="">
+                                <img src="{{ asset('frontend/assets/images/blog/5.jpg') }}" alt="">
                                 <div class="fly-btn">
                                     <a href="#"><i class="flaticon-right-arrow"></i></a>
                                 </div>
@@ -995,7 +995,7 @@
                                 <h3 class="title"><a href="#">Lights winged seasons abundantly evening.</a></h3>
                                 <div class="blog-meta">
                                     <div class="user-data">
-                                        <img src="assets/images/blog/avatar/1.png" alt="">
+                                        <img src="{{ asset('frontend/assets/images/blog/avatar/1.png') }}" alt="">
                                         <span>admin</span>
                                     </div>
                                     <div class="date">
@@ -1006,7 +1006,7 @@
                         </div>
                         <div class="blog-wrap">
                             <div class="img-part">
-                                <img src="assets/images/blog/6.jpg" alt="">
+                                <img src="{{ asset('frontend/assets/images/blog/6.jpg') }}" alt="">
                                 <div class="fly-btn">
                                     <a href="#"><i class="flaticon-right-arrow"></i></a>
                                 </div>
@@ -1016,7 +1016,7 @@
                                 <h3 class="title"><a href="#">Team You Want to Work With mistakes runners</a></h3>
                                 <div class="blog-meta">
                                     <div class="user-data">
-                                        <img src="assets/images/blog/avatar/1.png" alt="">
+                                        <img src="{{ asset('frontend/assets/images/blog/avatar/1.png') }}" alt="">
                                         <span>admin</span>
                                     </div>
                                     <div class="date">
@@ -1027,7 +1027,7 @@
                         </div>
                         <div class="blog-wrap">
                             <div class="img-part">
-                                <img src="assets/images/blog/3.jpg" alt="">
+                                <img src="{{ asset('frontend/assets/images/blog/3.jpg') }}" alt="">
                                 <div class="fly-btn">
                                     <a href="#"><i class="flaticon-right-arrow"></i></a>
                                 </div>
@@ -1037,7 +1037,7 @@
                                 <h3 class="title"><a href="#">Winged moved stars, fruit creature seed night.</a></h3>
                                 <div class="blog-meta">
                                     <div class="user-data">
-                                        <img src="assets/images/blog/avatar/1.png" alt="">
+                                        <img src="{{ asset('frontend/assets/images/blog/avatar/1.png') }}" alt="">
                                         <span>admin</span>
                                     </div>
                                     <div class="date">
