@@ -6,6 +6,8 @@ use App\Http\Controllers\CourseOutlineController;
 use App\Http\Controllers\LessonController;
 use App\Http\Controllers\UnitController;
 use App\Http\Controllers\WebsiteController;
+use App\Models\User;
+use Carbon\Carbon;
 use Illuminate\Support\Facades\Auth;
 
 /*
@@ -20,6 +22,24 @@ use Illuminate\Support\Facades\Auth;
 */
 
 Route::get('/', [WebsiteController::class, 'index'])->name('home');
+
+Route::get('/dashboard', function () {
+    $users = User::select('id', 'created_at')->get()->groupBy(function($users){
+        Carbon::parse($users->created_at)->format('M');
+    });
+
+
+    $months = [];
+    $userCount = [];
+
+    foreach ($users as $month => $user) {
+        $months[] = $month;
+        $userCount = count($user);
+    }
+
+    return view('dashboard', compact('users', 'months', 'userCount'));
+});
+
 
 Auth::routes();
 
